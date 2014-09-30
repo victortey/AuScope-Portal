@@ -63,6 +63,24 @@
                 <ref bean="knownTypeSF0BoreholeNVCL" />
                 <ref bean="knownTypeGeochron" />
                 <ref bean="knownTypeSurfaceAftershock" />
+                <ref bean="knownTypeBouguerGeodetic" />
+                <ref bean="knownTypeGravAnomalyGeodetic" />
+                <ref bean="knownTypeRadMapTotaldose" />
+                <ref bean="knownTypeMagMap" />
+                <ref bean="knownTypeGocadModels" />
+                <ref bean="KnownTypeGeophysicsDatasets" />
+                <ref bean="knownTypeGswaMagMerge" />
+                <ref bean="knownTypeGswaUMerge" />
+                <ref bean="knownTypeGswaThMerge" />
+                <ref bean="knownTypeGswaTcMerge" />
+                <ref bean="knownTypeGswaKMerge" />
+                <ref bean="knownTypeGAAemSurvey" />
+                <ref bean="knownTypeGARumJungleAEM" />
+                <ref bean="knownTypeGAWoolnerAEM" />
+                <ref bean="knownTypeGAGravitySurvey" />
+                <ref bean="knownTypeMusgraveAem" />
+                <ref bean="knownTypeWesternAreaAem" />
+                <ref bean="knownTypeAshburtonAem" />
             </list>
         </constructor-arg>
     </bean>
@@ -73,7 +91,8 @@
                 <ref bean="cswAuscopeTest" />
                 <ref bean="cswInSarProduction" />
                 <ref bean="cswMDUTest" />
-                <ref bean="cswAsterProduction" />
+                <ref bean="cswAsterProduction" />             
+                <ref bean="cswModelLibProduction" />
             </list>
         </constructor-arg>
     </bean>

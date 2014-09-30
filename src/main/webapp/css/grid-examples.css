@@ -80,6 +80,10 @@
     background-image:url(../img/information.png) !important;
 }
 
+.link {
+    background-image:url(../img/link.png) !important;
+}
+
 .download {
     background-image:url(../img/download.png) !important;
 }
